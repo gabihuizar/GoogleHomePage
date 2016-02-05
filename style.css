@@ -25,19 +25,24 @@ a {
 	text-decoration: none;
 }
 #topnav {
-	margin: 0;
-	padding: 10px;
+	margin-right: 20px;
+	padding: 5px;
 	float: right;
 	font-size: 12px;
+	-webkit-appearance: none;
 
 }
-li {
+#topnav li {
 	display: inline;
-	padding-right: 15px;
-	margin-left: 0;
-	margin-right: 0;
+	padding: 10px;
+	
 
 }
+#topnav img {
+	vertical-align: middle;
+
+}
+
 div {
 	padding-top: 150px;
 }
@@ -66,13 +71,16 @@ footer {
 	font-size: 13px;
 }
 #leftfooter {
+
 	float: left;
 	padding-left: 10px;
 
 }
 #rightfooter {
+	
 	float: right;
 }
 .footer {
 	padding: 5px 10px 5px 10px;
+	display: inline;
 }
